@@ -1,0 +1,17 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8950
+  adminConnectors:
+    - type: http
+      port: 9950
+
+logging:
+  level: INFO
+  loggers:
+    org.timestamps: DEBUG
+  appenders:
+    - type: console
+
+swagger:
+  resourcePackage: org.timestamps.application.resources
