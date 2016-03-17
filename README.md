@@ -2,7 +2,7 @@
 This tiny application returns timestamps for helping out when creating test data.
 
 ## Compiling
-    > maven clean install
+    > mvn clean install
     
 ## Running
     > java -jar timestamps-application.jar server config.yml
